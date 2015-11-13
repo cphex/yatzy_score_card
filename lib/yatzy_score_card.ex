@@ -1,0 +1,2 @@
+defmodule YatzyScoreCard do
+end
