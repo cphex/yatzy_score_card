@@ -28,11 +28,11 @@ A Yatzy scores card looks like this:
 
 Build a server using Elixir or Erlang that keep the state of a single Yatzy score card.
 
-  * The server should keep track of the options on the score card, which ones has been taken and with what score. It is okay to let the server crash if an invalid score has been given for a given score
+Note that this exercise does not involve keeping track of who's turn it is, nor does it involve creating dice throws. The focus is entirely on the state of one individual yatzy score card.
 
-  * The server should be able to return the total score of the score card
+  - [ ] The server should keep track of the options on the score card, which ones has been taken and with what score. It is okay to let the server crash if an invalid score has been given for a given score
 
-This exercise does not involve keeping track of who's turn it is, nor does it involve creating dice throws. The focus is entirely on the state of one individual yatzy score card.
+  - [ ] The server should be able to return the total score of the score card
 
 ## How to get started
 
