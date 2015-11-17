@@ -36,9 +36,11 @@ Build a server using Elixir or Erlang that keep the state of a single Yatzy scor
 
 Note that this exercise does not involve keeping track of who's turn it is, nor does it involve creating dice throws. The focus is entirely on the state of one individual yatzy score card.
 
-  - [ ] Create a process that can receive yatzy scores. The interface could look like `YatzyScoreCard.register(player, {:ones, 5})` where `player` is the `pid` or the process keeping the state.
+  - [ ] Create a process that can receive yatzy scores. The interface could look like `YatzyScoreCard.register(player, {:ones, 5})` where `player` is the `pid` or the process keeping the state. Look into `Agent` in the Elixir documentation
 
-  - [ ] The server should keep track of the options on the score card, which ones has been taken and with what score. It is okay to let the server crash if an invalid score has been given for a given score
+  - [ ] The server should keep track of the options on the score card, which ones has been taken and with what score. It is okay to let the server crash if an invalid score has been given for a given score. The response could look like `:ok`
+
+  - [ ] The server should return an error, like: `{:error, "already taken"}`, if the given option is already taken
 
   - [ ] The server should be able to return the total score of the score card
 
