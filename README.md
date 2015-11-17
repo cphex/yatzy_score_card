@@ -1,6 +1,12 @@
 # Yatzy Score Card
 
-Yatzy is a dice game where one to any number of players take turn rolling five dices. After the first roll the player can choose to keep or re-roll dices up to two times in a turn. A score must be put on the score card when the player has no more re-rolls; if the roll yielded a score of zero points one of the options must me sacrificed. The game ends when there are no more options on the score card. The player with the highest total score wins the game.
+Yatzy is a dice game where one to any number of players take turn rolling five dices.
+
+After the first roll the player can choose to keep or re-roll dices up to two times in a turn.
+
+A score must be put on the score card when the player has no more re-rolls; if the roll yielded a score of zero points one of the options must me sacrificed. The game ends when there are no more options on the score card.
+
+The player with the highest total score wins the game.
 
 ## The Yatzy Score Card
 
